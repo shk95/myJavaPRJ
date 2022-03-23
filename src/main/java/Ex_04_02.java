@@ -11,8 +11,8 @@ public class Ex_04_02 {
         System.out.printf(" %d + %d * %d = %d \n", a, b, c, result1);
 
         result2 = a * b / (float) c;
-        System.out.printf(" %d * %d / %d = %f \n", a, b, c, result2);
-
+        System.out.printf(" %d * %d / %d = %3.1f \n", a, b, c, result2);
+        //자릿수 지정
         mok = c / b;
         System.out.printf(" %d / %d 의 몫은 %d \n", c, b, mok);
 
