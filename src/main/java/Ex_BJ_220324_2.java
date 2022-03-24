@@ -6,27 +6,42 @@ public class Ex_BJ_220324_2 {
 
         Scanner sc = new Scanner(System.in);
 
-        int A = sc.nextInt(); //연도입력
-        boolean a,b,c;
+        int Y = sc.nextInt(); //연도입력
+        //boolean a,b,c;
 
         //나머지 구하기를 통해 배수인지 확인
-        A%=4;
-        System.out.println(A);//확인용
-        a = A==0;
-        System.out.println(a);//확인용
-        A%=100;
-        b = A!=0;
-        A%=400;
-        c = A==0;
-        if ((a&&b)||c){
+        //Y%=4;
 
-            System.out.println("1");}
-        else{
+        //a = Y==0;
+        //System.out.println("4배수"+Y+a);//확인용
 
-            System.out.println("0");}
 
+        //Y%=100;
+
+        //b = Y!=0; !잘못된부분
+        //System.out.println("100배수"+Y+b);//확인용
+
+        //Y%=400;
+
+        //c = Y==0;
+        //System.out.println("400배수"+Y+c);//확인용
+
+        if (Y % 400 == 0)
+            System.out.println("1");//400의 배수일떄
+        else if (Y % 4 == 0) {
+            if (Y % 100 == 0)
+                System.out.println("0");//400의 배수는 아니고 4의 배수이면서 100의 배수일때
+            else
+                System.out.println("1");//400의 배수는 아니고 4의 배수인면서 100의 배수는 아닐때
+        } else
+            System.out.println("0");//400의 배수도 아니고 4의 배수도 아닐때
 
     }
 
-
 }
+
+
+
+
+
+
