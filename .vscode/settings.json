@@ -1,0 +1,7 @@
+{
+    "sync.autoDownload": true,
+    "sync.autoUpload": true,
+    "sync.forceUpload": true,
+    "sync.forceDownload": true,
+    "sync.gist": "https://gist.github.com/user123145/4a394893c98c754cfb6ee119c1add016"
+}
