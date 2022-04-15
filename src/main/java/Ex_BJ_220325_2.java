@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class EX_BJ_220325_2 {
+public class Ex_BJ_220325_2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a, b, c;//각각 주사위 눈금
