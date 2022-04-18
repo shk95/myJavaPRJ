@@ -1,10 +1,11 @@
+//import java.util.Scanner;
+import java.io.IOException;
 public class Hello {
-    public static void main(String[] args){
+    public static void main(String[] args) throws IOException{
+       // Scanner s = new Scanner(System.in);
 
-        System.out.println("Hello!! My First Java Coding!!");
-        System.out.println("Hello!! My First Java Coding!!");
-
-
+        char ch = (char)System.in.read();
+        System.out.println(ch);
     }
 }
 
