@@ -8,8 +8,6 @@ public class Ex_A_220321_2 {
         Scanner sc = new Scanner(System.in);
 
 
-
-
                 int a = sc.nextInt();
                 if (a <= 100 & a >= 90) {
                     System.out.println("성적은 A 입니다");
@@ -28,7 +26,6 @@ public class Ex_A_220321_2 {
 
 
     }
-
 
 
 }

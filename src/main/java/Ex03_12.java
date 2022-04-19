@@ -8,7 +8,7 @@ public class Ex03_12 {
 
         b='a';
 
-        c=(char)(b+1);
+        c = (char) (b + 1);
         System.out.printf(" %c \t", b);
         System.out.printf(" %c \n", c);
 
