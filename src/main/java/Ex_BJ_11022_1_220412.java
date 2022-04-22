@@ -1,6 +1,6 @@
 import java.util.Scanner;//백준 11022번
 
-public class Ex_BJ_220412_2 {
+public class Ex_BJ_11022_1_220412 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int T = s.nextInt();//테스트 케이스
