@@ -1,4 +1,4 @@
-public class Ex03_15 {
+public class Ex_03_15 {
     public static void main(String[] args) {
         String str1 = "IT CookBook 입니다";
         String str2 = "10";
