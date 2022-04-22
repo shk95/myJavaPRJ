@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Ex_CU_1358_1_220415_1{
+public class Ex_CU_1358_1_220415{
     //홀수 입력됐을때 삼각형 출력
     public static void main(String[]args){
         Scanner s = new Scanner(System.in);
