@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex_BJ_220411_1 {
+public class Ex_BJ_00000_3_220411 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int a = s.nextInt();
