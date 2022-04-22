@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-public class Ex_BJ_220324_3{
+public class Ex_BJ_00000_9_220324{
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
         int H1,M1,htm,H2,M2;
