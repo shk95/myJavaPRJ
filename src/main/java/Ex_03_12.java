@@ -1,4 +1,4 @@
-public class Ex03_12 {
+public class Ex_03_12 {
     public static void main (String [] args){
         char a,b,c,d,e;
 
