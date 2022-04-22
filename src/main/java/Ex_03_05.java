@@ -1,4 +1,4 @@
-public class Ex03_05 {
+public class Ex_03_05 {
     public static void main(String[] args) {
 
 
