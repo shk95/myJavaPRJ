@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Ex_BJ_220407_1{
+public class Ex_BJ_00000_5_220407{
     public static void main(String[]args){
         //입력된 값 a 까지 1에서 부터 순차적으로 합산.
         Scanner s = new Scanner(System.in);
