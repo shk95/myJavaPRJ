@@ -2,7 +2,7 @@ import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 
 import java.util.Scanner;
 
-public class Ex_BJ_2588_1_220324 {
+public class Ex_BJ_02588_1_220324 {
     public static void main(String[] args) {
 
         /*백준 단계별 풀어보기
