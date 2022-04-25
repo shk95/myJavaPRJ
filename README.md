@@ -1,3 +1,3 @@
 # myJavaPRJ
-Java Study
+Java
 TIL
