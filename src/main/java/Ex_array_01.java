@@ -18,6 +18,5 @@ public class Ex_array_01 {
         for (int i = 0; i < listSize; i++) {//속도가 가장 느림
             System.out.println("내용 : " + list.get(i));
         }
-
     }
 }
