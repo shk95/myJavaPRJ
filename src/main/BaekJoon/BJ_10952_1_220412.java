@@ -1,6 +1,6 @@
 import java.util.Scanner;//백준 10952번
 
-public class Ex_BJ_10952_1_220412 {
+public class BJ_10952_1_220412 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 

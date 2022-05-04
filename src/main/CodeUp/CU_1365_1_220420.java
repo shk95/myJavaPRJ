@@ -1,7 +1,7 @@
 import java.util.Scanner;
 //코드업 1365
 
-public class Ex_CU_1365_1_220420 {
+public class CU_1365_1_220420 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int n;

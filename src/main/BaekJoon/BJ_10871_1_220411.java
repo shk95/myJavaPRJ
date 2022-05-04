@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex_BJ_10871_1_220411 {
+public class BJ_10871_1_220411 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int N = s.nextInt();//수열 을 이루는 정수 개수

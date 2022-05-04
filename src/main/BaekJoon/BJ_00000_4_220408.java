@@ -1,6 +1,6 @@
 import java.util.Scanner;//입력된 값 에서부터 1까지 출력
 
-public class Ex_BJ_00000_4_220408 {
+public class BJ_00000_4_220408 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int a = s.nextInt();

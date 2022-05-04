@@ -1,6 +1,7 @@
 import java.util.Scanner;
-public class Ex_CU_1368_1_220418{//코드업 1368. 수정 필요.
-    public static void main(String[]args){
+public class CU_1368_1_220418 {//코드업 1368. 수정 필요.
+
+    public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         //int h = s.nextInt();//높이
         //int k = s.nextInt();//및변길이

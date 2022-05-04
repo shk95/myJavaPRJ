@@ -1,9 +1,9 @@
 
 import java.util.Scanner;
-public class Ex_BJ_00000_9_220324{
-    public static void main(String[]args){
+public class BJ_00000_9_220324 {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int H1,M1,htm,H2,M2;
+        int H1, M1, htm, H2, M2;
         H1 = sc.nextInt();
         M1 = sc.nextInt();
         //시간은 24시간제

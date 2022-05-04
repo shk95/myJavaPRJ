@@ -1,6 +1,6 @@
 import java.util.Scanner;
 //주어진 N 개의 정수 중 최대값과 최솟값 출력.
-public class Ex_BJ_10818_1_220429 {
+public class BJ_10818_1_220429 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int N;//정수 개수

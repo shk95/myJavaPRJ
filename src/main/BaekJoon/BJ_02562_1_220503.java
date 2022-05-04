@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Scanner;
 
 //컬렉션프레임워크 이용. 최대값찾기
-public class Ex_BJ_02562_1_220503 {
+public class BJ_02562_1_220503 {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
         Scanner s = new Scanner(System.in);
