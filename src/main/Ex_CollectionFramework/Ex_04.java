@@ -35,6 +35,19 @@ public class Ex_04 {
         map = null;
         //list 2 완료
 
-        list.forEach(System.out::println);
+        list.forEach(System.out::println);//이런방식 말고
+        System.out.println("-------");
+
+        Map rMap = new HashMap<>();
+
+        list.forEach(Map -> {
+                    System.out.println("name : " + Map.get("name"));
+                    System.out.println("email : " + Map.get("email"));
+                    System.out.println("addr : " + Map.get("addr"));
+                    System.out.println("dept : " + Map.get("dept"));
+                    System.out.println("----------------");
+                }
+        );
+        //양식을 적용
     }
 }
