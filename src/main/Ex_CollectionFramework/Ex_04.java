@@ -38,8 +38,6 @@ public class Ex_04 {
         list.forEach(System.out::println);//이런방식 말고
         System.out.println("-------");
 
-        Map rMap = new HashMap<>();
-
         list.forEach(Map -> {
                     System.out.println("name : " + Map.get("name"));
                     System.out.println("email : " + Map.get("email"));
