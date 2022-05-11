@@ -1,27 +1,22 @@
-//import java.util.Scanner;
-
-import java.io.IOException;
-import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Hello {
-    public static void main(String[] args) throws IOException {
-        // Scanner s = new Scanner(System.in);
+    public static void main(String[] args) {
+        List<String> pList = new ArrayList<>();
 
-        //char ch = (char)System.in.read();
-        //System.out.println(ch);
-        Scanner s = new Scanner(System.in);
+        pList.add("홍길동");
+        pList.add("이협건");
+        pList.add("고길동");
+        pList.add("둘리");
 
-        String[] a = new String[4];
-        for (int i = 0; i < 4; i++) {
+        //Iterator<String> it = pList.iterator();
+        for (String a : pList
+        ) {
+            System.out.println(a);
 
-            String ss = s.nextLine();
-            a[i] = ss;
-        }
-        for (int i = 0; i < 4; i++) {
-            System.out.print(a[i]);
         }
     }
-
 }
 
 

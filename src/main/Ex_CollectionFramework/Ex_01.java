@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Ex_array_01 {
+public class Ex_01 {
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
         //List<String> Collection 인터페이스 중 List,<> 부분은 String으로 값 입력.
