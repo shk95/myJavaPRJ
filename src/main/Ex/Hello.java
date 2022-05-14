@@ -1,21 +1,21 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Hello {
     public static void main(String[] args) {
-        List<String> pList = new ArrayList<>();
 
-        pList.add("홍길동");
-        pList.add("이협건");
-        pList.add("고길동");
-        pList.add("둘리");
 
-        //Iterator<String> it = pList.iterator();
-        for (String a : pList
-        ) {
-            System.out.println(a);
+        Scanner s = new Scanner(System.in);
+            long a, r, n;
+            a = s.nextLong();
+            r = s.nextLong();
+            n = s.nextLong();
+            for(int i = 0; i<n-1; i++){
+                a*=r;
+            }
+            System.out.printf("%d",a);
 
-        }
     }
 }
 
