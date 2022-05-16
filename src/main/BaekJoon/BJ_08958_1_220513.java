@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Ex_08958_1_220513 {
+public class BJ_08958_1_220513 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
