@@ -10,7 +10,7 @@ public class Ex_02 {
         System.out.println("다음은 출력");
         System.out.println();
 
-        plist.forEach(e -> System.out.println(e));
+        plist.forEach(e -> System.out.println("name: "+e));
         //람다식을 적용
         System.out.println();
 
@@ -19,5 +19,13 @@ public class Ex_02 {
         }
         //foreach 방식
         System.out.println();
+
+        Iterator<String> it = plist.iterator();
+
+        while(it.hasNext()){
+            String name = it.next();
+            System.out.println(name);
+
+        }
     }
 }
