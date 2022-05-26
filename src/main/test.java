@@ -1,10 +1,10 @@
 public class test {
     public static void main(String[] args) {
-        String a = "123";
-        char c;
+        int[][] a = new int[3][4];
 
-        c = a.charAt(0);
-        int b = c-48;
-        System.out.println(b);
+        int b = a.length;
+        int c = a[0].length;
+        System.out.println(b+" "+c);
+
     }
 }
