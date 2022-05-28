@@ -1,4 +1,4 @@
-#1 myJavaPRJ
+myJavaPRJ
 Java
-#2 TIL
+TIL
 
