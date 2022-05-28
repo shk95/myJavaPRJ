@@ -1,4 +1,3 @@
-myJavaPRJ
 Java
 TIL
 
