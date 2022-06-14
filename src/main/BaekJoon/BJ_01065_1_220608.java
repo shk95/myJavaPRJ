@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class BJ_01065_1_220608 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
+
         int N = s.nextInt();
 
         Function f = new Function();
@@ -37,22 +38,22 @@ class Function {
         int i = 1;
         int k = 0;//인덱스
         int[] num = new int[4];
-        while (N / i % 10 != 0) {
-            num[k] = N / i % 10;
+        while (N / i!= 0) {
+            num[k] = (N / i) % 10;
             i *= 10;
             k++;
         }
+        //결과 k = 자리의 개수가 됨.
         //공차를 구해서 새로운 배열에 저장
-        int[] num1 = new int[num.length - 1];
-        for (int j = 0; j < num.length - 1; j++) {
-            int x = num[j + 1] - num[j];
-            num1[j] = x;
+        int[] newNum = new int[k-1];
+        for (int j = 0; j < newNum.length; j++) {
+            newNum[j] = num[j + 1] - num[j];
         }
         boolean check = false;
-        for (int m = 0; m < num1.length - 1; m++) {
-            if (num1[m + 1] == num1[m]) {
+        for (int m = 0; m < newNum.length; m++) {
+            if (newNum[0] == newNum[m]) {
                 check = true;
-            }else{
+            } else {
                 check = false;
             }
         }
