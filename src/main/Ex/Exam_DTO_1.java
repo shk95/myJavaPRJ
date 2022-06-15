@@ -1,10 +1,15 @@
+import lombok.Getter;
+import lombok.Setter;
+
 //getter setter
 //private 를 외부에서 접근하기위한 함수
+@Getter
+@Setter
 public class Exam_DTO_1 {
     private String test;
     private int score;
 
-    public String getTest() {
+   /* public String getTest() {
         return test;
     }
 
@@ -18,5 +23,5 @@ public class Exam_DTO_1 {
 
     public void setScore(int score) {
         this.score = score;
-    }
+    }*/
 }
