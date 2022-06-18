@@ -1,4 +1,3 @@
 # Project exclude paths
 /target/
-/src/main/test.java
-/src/ignored/
+/src/ignored
