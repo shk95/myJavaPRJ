@@ -10,19 +10,21 @@ public class Ex_02 {
         System.out.println("다음은 출력");
         System.out.println();
 
-        plist.forEach(e -> System.out.println("name: "+e));
         //람다식을 적용
+        plist.forEach(e -> System.out.println("name: " + e));
+
         System.out.println();
 
+        //enhanced for
         for (String e : plist) {
             System.out.println(e);
         }
-        //foreach 방식
+
         System.out.println();
 
         Iterator<String> it = plist.iterator();
 
-        while(it.hasNext()){
+        while (it.hasNext()) {
             String name = it.next();
             System.out.println(name);
 
