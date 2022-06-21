@@ -8,7 +8,9 @@ class Car_8{
 }
 class Sedan_8 extends Car_8{
     void upSpeed(int speed) {
-
+        //수퍼클래스 매소드 사용
+        //오버라이딩 전 메소드도 같이 출력 되는것확인
+        super.upSpeed(speed);
         this.speed += speed;
         if (this.speed > 150) {
             this.speed = 150;
