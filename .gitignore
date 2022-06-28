@@ -1,3 +1,4 @@
 # Project exclude paths
 /target/
 /src/ignored
+/src/main/test
